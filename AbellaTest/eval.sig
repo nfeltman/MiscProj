@@ -1,7 +1,6 @@
 sig eval.
 
-kind    tm		               type.
-kind    ty		               type.
+kind    tm, ty	               type.
 
 type    app                    tm -> tm -> tm.
 type    abs                    (tm -> tm) -> tm.
